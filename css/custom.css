@@ -1,0 +1,12 @@
+
+/** ADD YOUR AWESOME CODES HERE **/
+
+.yellow:before {
+    color:yellow;
+    font-size: 18px;
+    float: left;
+}
+
+.rounded {
+    border-radius: 50%;
+}
