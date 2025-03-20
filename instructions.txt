@@ -1,0 +1,25 @@
+Create a personal website.
+
+You find the content of my CV under assets/professional-readme.md. I also store my CV there as a pdf file. I also added an image of me, "gergo_grand_cny". You should imagine this as a 2048 × 1536 image of the grand canyon, and I am standing in the bottom half, 3/4 of the way from the left. I can also bring a profile pic if needed.
+
+I want the website to be responsive and mobile-friendly. The style of the website should reflect my ML engineering personality, especially the colors.
+
+Styling:
+- Colors: Make it colorful. Feel free to use some public palettes.
+- Typography: Use a modern, clean, and readable font.
+- Layout: Use a grid-based layout with a fixed width. Make it responsive.
+
+
+I imagine the layout to be something like this:
+1) On the top, there is my Grand canyon image
+2) My name should show up somewhere here with large letters. With smaller letters we can write something about me.
+3) The contact information (linkedin, github, email, phone, location) should be on top left, represented by clickable icons.
+4) My CV should be on top right, represented by a clickable icon and the word "CV".
+5) Next, below the image, we should have a summary about my skills. So technologies, charts, etc.
+6) Then, experience. I beleive we should have an interactive timeline here, because we have no space to write it down everything about my experience. We should make this clickable, so a pop-up window explains more about my experience at a current workplace.
+7) University education should be here.
+8) Projects should be here. Similarly to my experience, we should make this clickable, so a pop-up window explains more about my project.
+9) Hobbies and interests should be here.
+10) Publications should be here.
+11) Any other achievements should be here.
+12) Contact form should be here.
