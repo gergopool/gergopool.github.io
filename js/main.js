@@ -365,6 +365,14 @@ function initProjectModals() {
             technologies: 'Python, TensorFlow, Docker, REST API',
             details: 'This project involved creating an end-to-end OCR solution for automatically reading watermeter values from images. The system handles the entire process from image cleaning and rotation to digit extraction and interpretation. Deployed to the cloud with a REST API interface, the solution enables seamless integration with utility company systems, significantly reducing the need for manual meter reading and improving billing accuracy.'
         },
+        'alphazero' : {
+            title: 'AlphaZero',
+            description: 'Reimplemented AlphaZero to explore temporal diﬀerence learning vs. Monte Carlo methods. The study revealed unique in-game strategies made with Reinforcement Learning.',
+            role: '',
+            where: '(Home Project)',
+            technologies: 'Python, TensorFlow',
+            details: 'At that time AlphaZero was one of the most surprising results in the field of reinforcement learning, as it was able to beat human experts in Go and chess. This project involved re-implenenting AlphaZero, as well as exploring temporal diﬀerence learning vs. Monte Carlo methods. The study revealed unique in-game strategies made in Gomoku 3D, but temporal difference learning showed no advantage over Monte Carlo methods.'
+        },
         'balance-sheet': {
             title: 'Balance Sheet Reconciliation',
             description: 'Engineered a tool using hierarchical clustering to reconcile balance sheets between different accounting systems, automating complex financial comparisons.',
@@ -404,6 +412,14 @@ function initProjectModals() {
             where: 'Morgan Stanley',
             technologies: 'Python, Scikit-learn, Pandas',
             details: 'This project involved developing a predictive model for time series forecasting using linear regression techniques. By analyzing patterns in historical data, the model generates forecasts that enable data-driven decision making. The solution includes comprehensive data preprocessing, feature engineering to capture temporal patterns, and model validation to ensure forecast reliability. The approach balances sophistication with interpretability, making it valuable for business planning and resource allocation.'
+        },
+        'chess' : {
+            title: 'Chess Engine',
+            description: 'As a bachelor thesis, I developed a neural chess engine from scratch without the use of tree search, achieving entry-level play.',
+            role: 'Student',
+            where: 'University of Manchester',
+            technologies: 'Java',
+            details: 'In 2016, DeepMind stated that their policy network could defeat the strongest Go engines, even without the use of tree-search. Inspired by this, I developed a neural chess engine from scratch without the use of tree search, achieving entry-level play. The engine was implemented in Java, because back then I was more familiar with it than Python. For this reason, I needed implement the neural network from scratch, using backpropagation to train the engine. '
         }
     };
     
