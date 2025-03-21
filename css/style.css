@@ -466,6 +466,22 @@ a:hover {
     margin-bottom: 10px;
 }
 
+.project-year {
+    display: inline-block;
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 0.8rem;
+    padding: 3px 8px;
+    border-radius: 12px;
+    margin-left: 10px;
+    vertical-align: middle;
+    font-weight: normal;
+}
+
+.project-present {
+    background-color: var(--accent-color);
+}
+
 .project-info p {
     margin-bottom: 15px;
     flex-grow: 1;
@@ -492,6 +508,49 @@ a:hover {
     color: var(--secondary-color);
     border-top: 1px solid #eee;
     padding-top: 10px;
+}
+
+.featured-project {
+    position: relative;
+}
+
+.featured-project::after {
+    content: "★";
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    color: var(--accent-color);
+    font-size: 1.5rem;
+}
+
+.project-links {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.project-links a {
+    display: inline-flex;
+    align-items: center;
+    color: var(--secondary-color);
+    font-size: 0.9rem;
+    transition: color 0.3s ease;
+}
+
+.project-links a:hover {
+    color: var(--accent-color);
+}
+
+.project-links a i {
+    margin-right: 5px;
+}
+
+.project-role {
+    font-style: italic;
+    color: #666;
+    margin-bottom: 10px;
+    font-size: 0.9rem;
 }
 
 /* Publications Section */
