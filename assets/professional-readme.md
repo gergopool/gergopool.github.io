@@ -9,7 +9,7 @@
 
 ## 👨‍💻 About Me
 
-Machine Learning Researcher with expertise in deep learning, computer vision, and NLP. Experienced in designing, training, and deploying real-time AI solutions with a proven track record of publications at top conferences. Currently based in Amsterdam with a background spanning academic research and industry applications.
+Machine Learning Engineer with expertise in deep learning, computer vision, and NLP. Experienced in designing, training, and deploying real-time AI solutions with a proven track record of publications at top conferences. Currently based in Amsterdam with a background spanning academic research and industry applications.
 
 ## 🔭 Current Focus
 
@@ -45,7 +45,7 @@ Currently developing a Linux bash agent capable of executing terminal tasks thro
 
 ## 💼 Professional Experience
 
-### Deep Learning Researcher
+### Deep Learning Research Engineer
 **Alfréd Rényi Institute of Mathematics** | 2020 - 2024
 
 **Achievements:**

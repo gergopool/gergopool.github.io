@@ -76,7 +76,7 @@ function initExperienceModals() {
     // Experience details data
     const experienceDetails = {
         'renyi': {
-            title: 'Deep Learning Researcher',
+            title: 'Deep Learning Research Engineer',
             company: 'Alfréd Rényi Institute of Mathematics',
             period: '2020 - 2024',
             achievements: [
@@ -269,7 +269,7 @@ function initProjectModals() {
         'energy-consumption': {
             title: 'Energy Consumption Prediction',
             description: 'Developed a time series forecasting model to predict energy consumption based on historical data through collection, cleaning, preprocessing, and model training.',
-            role: 'ML Engineer and consultant',
+            role: 'Research Engineer and Consultant',
             where: 'Alfred Rényi Institute of Mathematics',
             technologies: 'Python, PyTorch, Docker',
             details: 'This project involved building a sophisticated time series forecasting model to predict energy consumption patterns. The model was trained on historical data after extensive cleaning and preprocessing, enabling accurate predictions that can help optimize energy usage and reduce costs.'
@@ -277,7 +277,7 @@ function initProjectModals() {
         'self-supervised': {
             title: 'Self-Supervised Learning',
             description: 'Explored innovative self-supervised image classification methods competing with state-of-the-art approaches, achieving promising results on smaller datasets.',
-            role: 'ML Researcher',
+            role: 'Research Engineer',
             where: 'Alfred Rényi Institute of Mathematics',
             technologies: 'Python, PyTorch, Wandb, Docker',
             details: 'This research project investigated novel approaches to self-supervised learning for image classification, with a focus on techniques that perform well on smaller datasets. The work demonstrated that carefully designed self-supervised methods can compete with state-of-the-art supervised approaches while requiring significantly less labeled data.',
@@ -286,7 +286,7 @@ function initProjectModals() {
         'functional-similarity': {
             title: 'Functional Similarity',
             description: 'Demonstrated that geometric and functional similarity in neural networks are distinct concepts using affine transformations between networks.',
-            role: 'ML Researcher',
+            role: 'Research Engineer',
             where: 'Alfred Rényi Institute of Mathematics',
             technologies: 'Python, PyTorch',
             details: 'This research project, which resulted in the first NeurIPS paper accepted from a Hungarian institute, established that geometric and functional similarity in neural networks are distinct concepts. By using affine transformations between networks, the research showed that networks with different internal representations can still perform the same functions, challenging conventional understanding of neural network similarity.',
@@ -295,7 +295,7 @@ function initProjectModals() {
         'cnn-interpret': {
             title: 'Image Interpretation of CNNs',
             description: 'Visualized the role of neurons in CNNs using Lucid and GANs, revealing what images best represent specific classes in a CelebA-trained classifier.',
-            role: 'ML Researcher',
+            role: 'Research Engineer',
             where: 'Alfred Rényi Institute of Mathematics',
             technologies: 'Python, Lucid, TensorFlow',
             details: 'This project focused on making convolutional neural networks more interpretable by visualizing what specific neurons respond to. Using techniques from Lucid and GANs, the research revealed the images that best represent specific classes in a classifier trained on the CelebA dataset, providing insights into how CNNs process and categorize facial features.'

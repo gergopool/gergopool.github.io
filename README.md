@@ -1,6 +1,6 @@
 # Personal Website - Gergely Papp
 
-A responsive personal website showcasing Gergely Papp's professional experience, skills, and achievements as a Machine Learning Researcher and Engineer.
+A responsive personal website showcasing Gergely Papp's professional experience, skills, and achievements as a Machine Learning Engineer.
 
 ## Project Structure
 
