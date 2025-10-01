@@ -6,7 +6,7 @@
 
 ## Personal Statement
 
-I wake up at 5am and never miss leg day. I cook for my family and make jokes they pretend to laugh at. And when none of these apply, I build AI systems that solve problems people care about. Whether it's architecting custom vision models, engineering multi-agent LLM systems, or building scalable AI backends — I've built it, validated it, and published the research behind it.
+I wake up at 5am and never miss leg days. I cook for my family and make jokes they pretend to laugh at. And when none of these apply, I build AI systems that solve problems people care about. Whether it's architecting custom vision models, engineering multi-agent LLM systems, or building scalable AI backends — I've built it, validated it, and published the research behind it.
 
 ## Education
 
