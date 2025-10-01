@@ -1,6 +1,6 @@
 # Gergely Papp
 
-## Machine Learning Researcher and Engineer
+## AI Engineer
 
 [![GitHub](https://img.shields.io/badge/GitHub-gergopool-181717?style=flat&logo=github)](https://github.com/gergopool/)
 [![Email](https://img.shields.io/badge/Email-gergopool%40gmail.com-red)](mailto:contact@gergelypapp.eu
@@ -9,11 +9,11 @@
 
 ## 👨‍💻 About Me
 
-Machine Learning Engineer with expertise in deep learning, computer vision, and NLP. Experienced in designing, training, and deploying real-time AI solutions with a proven track record of publications at top conferences. Currently based in Amsterdam with a background spanning academic research and industry applications.
+AI Engineer with expertise in LLMs, deep learning, computer vision, and NLP. Experienced in designing, training, and deploying real-time AI solutions with a proven track record of publications at top conferences. Currently based in Amsterdam with a background spanning academic research and industry applications.
 
 ## 🔭 Current Focus
 
-Currently developing a Linux bash agent capable of executing terminal tasks through natural language prompts. This project involves fine-tuning an LLM model for terminal command generation and optimization for efficient deployment on small GPU devices and CPUs.
+Working as an AI Engineer Freelancer building production RAG systems for law enforcement investigations using AWS Bedrock, LangChain, and LangGraph. Also developing a Linux bash agent capable of executing terminal tasks through natural language prompts using LLMs.
 
 ## 🛠️ Technical Skills
 
@@ -26,15 +26,15 @@ Currently developing a Linux bash agent capable of executing terminal tasks thro
 - **Deep Learning**: PyTorch, TensorFlow, Keras
 - **Machine Learning**: Scikit-Learn, Pandas, NumPy
 - **Computer Vision**: OpenCV
-- **NLP**: Huggingface, Transformers
-- **Big Data**: Spark, Databricks
+- **NLP & LLMs**: Huggingface, Transformers, LangChain, LangGraph
+- **Big Data**: Spark
 - **Web**: Django, Flask, Angular, NodeJS
 
-### DevOps & Tools
+### DevOps & Cloud Tools
 - Docker
 - Git
-- REST API
-- Azure Cloud
+- AWS, AWS Bedrock, S3
+- PostgreSQL, Redis
 - SLURM
 
 ## 🎓 Education
@@ -44,6 +44,21 @@ Currently developing a Linux bash agent capable of executing terminal tasks thro
 - **Mathematics Specialization** - Fazekas Mihaly High School
 
 ## 💼 Professional Experience
+
+### AI Engineer Freelancer
+**Freelance** | April 2025 - Present
+
+**Achievements:**
+- Building production-ready RAG system for law enforcement investigations
+- Implementing scalable LLM-powered solutions using AWS Bedrock
+
+**Responsibilities:**
+- Design and develop RAG systems for police investigation workflows
+- Implement LLM pipelines using AWS Bedrock, LangChain, and LangGraph
+- Architect cloud infrastructure with Docker, PostgreSQL, S3, and Redis
+- Optimize system performance and cost efficiency for production deployment
+
+**Technologies**: Python, AWS Bedrock, LangChain, LangGraph, Docker, PostgreSQL, S3, Redis
 
 ### Deep Learning Research Engineer
 **Alfréd Rényi Institute of Mathematics** | 2020 - 2024
@@ -98,7 +113,7 @@ Currently developing a Linux bash agent capable of executing terminal tasks thro
 - Prune and distill neural networks for inference
 - Deliver state-of-the-art PoC models for new customers
 
-**Technologies**: Python, TensorFlow, Keras, Scikit-Learn, OpenCV, Django, Flask, Cloud, REST API, C#, Docker, Git
+**Technologies**: Python, TensorFlow, Keras, Scikit-Learn, OpenCV, Django, Flask, Cloud, C#, Docker, Git
 
 ### Risk Analyst (AI Team)
 **Morgan Stanley** | 2017 - 2018
@@ -130,12 +145,12 @@ Currently developing a Linux bash agent capable of executing terminal tasks thro
 ## 🚀 Projects
 
 ### Prisma (Present)
-Extracting psychological data, resilience, and player communication statistics from e-sport footage for further analysis.
-**Technologies**: Python, Huggingface, Docker, Pygame, Databricks
+Extracting psychological data, resilience, and player communication statistics from esports footage for further analysis.
+**Technologies**: Python, Huggingface, Docker, Pygame
 
 ### Linux Bash Agent (Current)
-Developing a natural language interface for terminal operations that can execute complex tasks through prompting, with optimization for deployment on resource-constrained devices.
-**Technologies**: LLM Fine-tuning, Python, Bash, Linux
+Developing a natural language interface for terminal operations using LLMs that can execute complex tasks through prompting, optimized for deployment on resource-constrained devices.
+**Technologies**: Python, AWS Bedrock, LangChain, Bash, Linux
 
 ### Stitch-BERT (2024)
 Analyzed how NLP transformers fine-tuned for different languages and tasks relate geometrically and functionally, revealing potential for cross-task insights.
@@ -163,7 +178,7 @@ Built an OCR-based Python application to clean, rotate, and detect characters fr
 
 ### AlphaZero (2018)
 Reimplemented AlphaZero to explore temporal difference learning vs. Monte Carlo methods, revealing unique in-game strategies with Reinforcement Learning.
-**Technologies**: Python, Keras
+**Technologies**: Python, TensorFlow
 
 ### Chess Engine (2017)
 Designed a Java-based neural chess engine from scratch without tree search, achieving entry-level play.

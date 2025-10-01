@@ -1,0 +1,112 @@
+/* Education Section */
+#education {
+    background:
+        radial-gradient(circle at 85% 50%, rgba(255, 184, 77, 0.10) 0px, transparent 16%),
+        radial-gradient(circle at 15% 50%, rgba(255, 107, 53, 0.08) 0px, transparent 14%),
+        #0D0D0D;
+}
+
+.education-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.education-item {
+    background-color: var(--card-bg);
+    padding: 35px;
+    border-radius: 15px;
+    box-shadow:
+        0 1px 2px rgba(0, 0, 0, 0.3),
+        0 8px 16px rgba(0, 0, 0, 0.15),
+        0 16px 32px rgba(255, 107, 53, 0.1);
+    text-align: center;
+    border: 1px solid var(--border-color);
+    position: relative;
+    overflow: hidden;
+    opacity: 0;
+    transform: translateY(30px);
+}
+
+.education-icon {
+    font-size: 4.1rem;
+    color: var(--secondary-color);
+    margin-bottom: 25px;
+    background: linear-gradient(135deg, rgba(46, 196, 182, 0.15), rgba(255, 159, 28, 0.15));
+    width: 105px;
+    height: 105px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 25px;
+    border-radius: 50%;
+    border: 4px solid var(--secondary-color);
+    box-shadow: 0 8px 25px rgba(46, 196, 182, 0.3);
+    position: relative;
+    transform: rotate(10deg);
+}
+
+.education-item h3 {
+    margin-bottom: 10px;
+    color: var(--light-text);
+    font-size: 1.4rem;
+}
+
+.education-item h4 {
+    margin-bottom: 20px;
+    color: var(--primary-color);
+    font-size: 1.1rem;
+}
+
+.education-grade-container {
+    margin-top: 15px;
+}
+
+.education-grade {
+    font-weight: 600;
+    color: var(--light-text);
+    font-size: 1.05rem;
+    margin: 0;
+    text-align: center;
+}
+
+.cum-laude-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    color: rgba(255, 220, 180, 1);
+    font-weight: 700;
+    font-size: 0.95rem;
+    text-shadow:
+        0 0 8px rgba(0, 0, 0, 0.8),
+        0 2px 4px rgba(0, 0, 0, 0.9),
+        0 4px 8px rgba(0, 0, 0, 0.7);
+    filter: drop-shadow(0 0 25px rgba(255, 159, 28, 0.5));
+    animation: subtle-pulse 2s ease-in-out infinite;
+    position: absolute;
+    top: 25px;
+    right: 25px;
+}
+
+.cum-laude-badge i {
+    font-size: 1.1rem;
+    color: rgba(255, 184, 77, 1);
+}
+
+@keyframes subtle-pulse {
+    0%, 100% {
+        transform: scale(1);
+        filter: drop-shadow(0 0 25px rgba(255, 159, 28, 0.5));
+    }
+    50% {
+        transform: scale(1.05);
+        filter: drop-shadow(0 0 35px rgba(255, 159, 28, 0.8));
+    }
+}
+
+.education-date {
+    color: var(--secondary-color);
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 10px 0;
+}

@@ -29,46 +29,52 @@
         left: 5%;
         max-width: 500px;
     }
-    
+
     .hero-text h1 {
         font-size: 3rem;
     }
-    
+
     .hero-text h2 {
         font-size: 1.6rem;
     }
-    
+
     .hero-text p {
         font-size: 1.1rem;
     }
-    
+
     .hero-text {
         top: 25%;
     }
-    
+
     .section {
         padding: 60px 0;
     }
-    
+
     .section-title {
         font-size: 2rem;
         margin-bottom: 40px;
     }
-    
+
     .timeline::before {
         left: 30px;
     }
-    
+
     .timeline-item:nth-child(odd),
     .timeline-item:nth-child(even) {
         padding-left: 80px;
         padding-right: 0;
     }
-    
+
     .timeline-item:nth-child(odd)::before,
     .timeline-item:nth-child(even)::before {
         left: 20px;
         right: auto;
+    }
+
+    .tech-icon {
+        width: 56px;
+        height: 56px;
+        padding: 8px;
     }
 }
 
@@ -77,69 +83,66 @@
     .hero {
         height: 80vh;
     }
-    
+
     .hero-text h1 {
         font-size: 2.5rem;
     }
-    
+
     .hero-text h2 {
         font-size: 1.4rem;
     }
-    
+
     .hero-text p {
         font-size: 1rem;
     }
-    
+
     .hero-text {
-        top: 25%;
+        top: 32%;
         left: 5%;
     }
-    
-    .contact-icons {
-        flex-wrap: wrap;
-        max-width: 70%;
-    }
-    
-    .contact-icons a {
-        margin-bottom: 5px;
-    }
-    
-    .info-badge {
-        margin-bottom: 5px;
-    }
-    
-    .cv-download {
-        top: 20px;
-        right: 20px;
-    }
-    
-    .cv-download a {
+
+    .location-badge {
+        font-size: 13px;
         padding: 8px 12px;
-        font-size: 0.9rem;
     }
-    
+
+    .hero-action-btn {
+        padding: 8px 12px;
+        font-size: 13px;
+    }
+
     .section {
         padding: 50px 0;
     }
-    
+
     .section-title {
         font-size: 1.8rem;
         margin-bottom: 30px;
     }
-    
+
     .skills-container,
     .education-container,
     .achievements-list {
         grid-template-columns: 1fr;
     }
-    
+
     .projects-grid {
         grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     }
-    
+
     .modal-content {
         width: 90%;
         padding: 30px;
+    }
+
+    .tech-icon {
+        width: 48px;
+        height: 48px;
+        padding: 6px;
+    }
+
+    .tech-icons {
+        gap: 10px;
     }
 }
 
@@ -153,19 +156,15 @@
         font-size: 1.5rem;
     }
     
-    .contact-icons {
-        flex-wrap: wrap;
-        max-width: 70%;
+    .location-badge {
+        font-size: 13px;
+        padding: 8px 12px;
     }
-    
-    .contact-icons a {
-        margin-bottom: 5px;
+
+    .hero-action-btn {
+        padding: 8px 12px;
+        font-size: 13px;
     }
-    
-    .info-badge {
-        margin-bottom: 5px;
-    }
-}
 
 @media (max-width: 576px) {
     .hero-text h1 {
@@ -176,77 +175,62 @@
         font-size: 1.2rem;
     }
     
-    .contact-icons {
-        flex-wrap: wrap;
-        max-width: 80%;
+    .location-badge {
+        top: 12px;
+        left: 12px;
+        font-size: 12px;
+        padding: 6px 10px;
     }
-    
-    /* Keep buttons on one line, info badges on another */
-    .contact-icons {
-        display: flex;
-        flex-direction: column;
+
+    .hero-actions {
+        top: 12px;
+        right: 12px;
+        gap: 8px;
     }
-    
-    .contact-icons .buttons-row {
-        display: flex;
-        gap: 15px;
-        margin-bottom: 10px;
+
+    .hero-action-btn {
+        padding: 6px 10px;
+        font-size: 12px;
+        gap: 6px;
     }
-    
-    .contact-icons .info-row {
-        display: flex;
-        flex-direction: column;
-        gap: 5px;
-    }
-}
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
     .hero-text h1 {
         font-size: 2rem;
     }
-    
+
     .hero-text h2 {
         font-size: 1.2rem;
     }
-    
+
     .hero-text p {
         font-size: 0.9rem;
     }
-    
+
     .hero-text {
-        top: 25%;
+        top: 35%;
         left: 5%;
         right: 5%;
     }
     
-    /* Keep buttons on one line, info badges on another */
-    .contact-icons {
+    .location-badge {
         top: 10px;
         left: 10px;
-        max-width: 80%;
+        font-size: 11px;
+        padding: 6px 10px;
     }
-    
-    .buttons-row {
-        display: flex;
-        gap: 10px;
-        margin-bottom: 5px;
-    }
-    
-    .info-row {
-        display: flex;
-        flex-direction: column;
-        gap: 5px;
-    }
-    
-    .cv-download {
+
+    .hero-actions {
         top: 10px;
         right: 10px;
+        flex-direction: column;
+        gap: 6px;
     }
-    
-    .cv-download a {
-        padding: 8px 12px;
-        font-size: 0.9rem;
+
+    .hero-action-btn {
+        padding: 6px 10px;
+        font-size: 11px;
     }
     
     .section-title {

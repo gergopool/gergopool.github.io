@@ -1,0 +1,172 @@
+/* Skills Section */
+#skills {
+    background:
+        radial-gradient(circle at 80% 50%, rgba(255, 107, 53, 0.10) 0px, transparent 16%),
+        radial-gradient(circle at 20% 50%, rgba(255, 159, 28, 0.08) 0px, transparent 14%),
+        #0D0D0D;
+}
+
+/* Tier info tooltip */
+.tier-info {
+    position: relative;
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 16px;
+    cursor: help;
+    opacity: 0.7;
+}
+
+.tier-tooltip {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 12px;
+    white-space: nowrap;
+    margin-top: 8px;
+    z-index: 10;
+    transition: opacity 0.3s, visibility 0.3s;
+}
+
+.tier-info:hover .tier-tooltip {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Skills container - 3 column grid */
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.skill-category {
+    background-color: var(--card-bg);
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow:
+        0 1px 2px rgba(0, 0, 0, 0.3),
+        0 8px 16px rgba(0, 0, 0, 0.15),
+        0 16px 32px rgba(255, 107, 53, 0.1);
+    border: 1px solid var(--border-color);
+}
+
+.skill-category h3 {
+    margin-bottom: 20px;
+    color: var(--primary-color);
+    text-align: center;
+}
+
+/* Tier group - horizontal bar */
+.tier-group {
+    display: flex;
+    align-items: stretch;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 2px solid;
+    min-height: 55px;
+    opacity: 0;
+    transform: translateY(30px);
+}
+
+.tier-group:last-child {
+    margin-bottom: 0;
+}
+
+/* Tier header - colored label box */
+.tier-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 50px;
+    padding: 8px;
+    flex-shrink: 0;
+}
+
+.tier-emoji {
+    font-size: 28px;
+    line-height: 1;
+}
+
+/* S Tier - Red (🏆) */
+.tier-group:nth-of-type(1) .tier-header {
+    background: linear-gradient(135deg, #dc2626, #991b1b);
+}
+
+.tier-group:nth-of-type(1) {
+    border-color: #dc2626;
+    background-color: rgba(220, 38, 38, 0.08);
+}
+
+/* A Tier - Gold (⭐) */
+.tier-group:nth-of-type(2) .tier-header {
+    background: linear-gradient(135deg, #f59e0b, #d97706);
+}
+
+.tier-group:nth-of-type(2) {
+    border-color: #f59e0b;
+    background-color: rgba(245, 158, 11, 0.08);
+}
+
+/* B Tier - Silver (🥈) */
+.tier-group:nth-of-type(3) .tier-header {
+    background: linear-gradient(135deg, #9ca3af, #6b7280);
+}
+
+.tier-group:nth-of-type(3) {
+    border-color: #9ca3af;
+    background-color: rgba(156, 163, 175, 0.08);
+}
+
+/* C Tier - Bronze (🥉) */
+.tier-group:nth-of-type(4) .tier-header {
+    background: linear-gradient(135deg, #b45309, #92400e);
+}
+
+.tier-group:nth-of-type(4) {
+    border-color: #b45309;
+    background-color: rgba(180, 83, 9, 0.08);
+}
+
+/* Skill icons container */
+.skill-icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 8px;
+    flex: 1;
+}
+
+.skill-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6px;
+    width: 55px;
+    height: 55px;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid transparent;
+}
+
+.skill-icon img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    margin-bottom: 4px;
+}
+
+.skill-icon span {
+    font-size: 9px;
+    text-align: center;
+    font-weight: 500;
+    color: var(--text-color);
+    line-height: 1.1;
+}
