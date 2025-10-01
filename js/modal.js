@@ -158,7 +158,7 @@ function initContactModal() {
                         </div>
                     </a>
 
-                    <div class="contact-item clickable" onclick="this.querySelector('.contact-item-value').textContent='+31 6 20794515'; this.classList.remove('clickable'); this.onclick=null;">
+                    <div class="contact-item clickable" id="phone-reveal">
                         <div class="contact-item-icon">
                             <i class="fas fa-phone"></i>
                         </div>
@@ -172,6 +172,15 @@ function initContactModal() {
 
             modalContent.innerHTML = content;
             modal.style.display = 'block';
+
+            // Add event listener for phone reveal
+            const phoneReveal = document.getElementById('phone-reveal');
+            if (phoneReveal) {
+                phoneReveal.addEventListener('click', function() {
+                    this.querySelector('.contact-item-value').textContent = '+31 6 20794515';
+                    this.classList.remove('clickable');
+                }, { once: true });
+            }
         });
     }
 }
