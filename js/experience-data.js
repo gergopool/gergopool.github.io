@@ -3,7 +3,7 @@ const experienceDetails = {
     'freelance-ai': {
         title: 'AI Engineer Freelancer',
         company: 'Freelance',
-        period: 'April 2025 - Present',
+        period: 'June 2025 - Present',
         achievements: [
             'Building production-ready RAG system for law enforcement investigations',
             'Implementing scalable LLM-powered solutions using AWS Bedrock'
