@@ -44,7 +44,7 @@
         rgba(0, 0, 0, 0.4) 0%,
         rgba(0, 0, 0, 0.2) 60%,
         transparent 100%);
-    z-index: 1;
+    z-index: 2;
 }
 
 .hero-image img {
@@ -52,6 +52,24 @@
     height: 100%;
     object-fit: cover;
     object-position: center bottom;
+}
+
+.hero-image video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center bottom;
+    pointer-events: none;
+    user-select: none;
+    z-index: 1;
+    transition: opacity 1s ease-out;
+}
+
+.hero-image video.fade-out {
+    opacity: 0;
 }
 
 .hero-text {
