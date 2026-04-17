@@ -21,7 +21,7 @@
                 <a href="mailto:contact@gergelypapp.eu" title="Email"><i class="fas fa-envelope"></i></a>
             </div>
             <div class="info-row">
-                <div class="info-badge" title="Phone" onclick="this.querySelector('span').textContent='+31620794515'; this.onclick=null;" style="cursor: pointer;"><i class="fas fa-phone"></i> <span>Show phone</span></div>
+                <div class="info-badge" title="Phone" onclick="const k=23,a=[60,36,38,55,33,55,37,39,32,46,35,34,38,34];this.querySelector('span').textContent=a.map(v=>String.fromCharCode(v^k)).join('');this.onclick=null;" style="cursor: pointer;"><i class="fas fa-phone"></i> <span>Show phone</span></div>
                 <div class="info-badge" title="Location"><i class="fas fa-map-marker-alt"></i> Amsterdam</div>
             </div>
         </div>

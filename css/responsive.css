@@ -135,6 +135,16 @@
         padding: 30px;
     }
 
+    .timeline-content {
+        padding-right: 52px;
+    }
+
+    .timeline-company-logo {
+        width: 24px;
+        height: 24px;
+        padding: 2px;
+    }
+
     .tech-icon {
         width: 48px;
         height: 48px;

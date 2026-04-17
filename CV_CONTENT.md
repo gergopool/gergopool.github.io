@@ -1,8 +1,8 @@
-# Gergely Papp - AI Engineer
+# Gergely Papp - Data Scientist & Consultant
 
 **Location:** Amsterdam
-**Title:** AI Engineer - Freelancer
-**Key Technologies:** PyTorch, TensorFlow, LangChain, AWS Bedrock
+**Title:** Data Scientist & Consultant
+**Key Technologies:** PyTorch, LangChain, Huggingface, AWS Bedrock
 
 ## Personal Statement
 
@@ -39,18 +39,30 @@ I wake up at 5am and never miss leg days. I cook for my family and make jokes th
 
 ## Experience
 
-### AI Engineer Freelancer (April 2025 - Present)
+### Data Scientist & Consultant - Datacation B.V. (January 2026 - Present)
 **Achievements:**
-- Building production-ready RAG system for law enforcement investigations
-- Implementing scalable LLM-powered solutions using AWS Bedrock
+- Deliver end-to-end projects, from quick scans to production-ready delivery
+- Advise on traditional ML approaches when they are more suitable than LLMs
+
+**Responsibilities:**
+- Scope and execute applied AI and analytics projects with clients
+- Translate business problems into pragmatic ML and computer vision solutions
+- Build and ship agentic AI systems where they add clear value
+
+**Technologies:** Azure, Huggingface, Computer Vision, Agentic AI
+
+### AI Engineer - GergoTech Freelancer (June 2025 - January 2026)
+**Achievements:**
+- Built a production RAG system for law enforcement investigations
+- Designed scalable LLM-powered solutions around retrieval and knowledge graphs
 
 **Responsibilities:**
 - Design and develop RAG systems for police investigation workflows
-- Implement LLM pipelines using AWS Bedrock, LangChain, and LangGraph
+- Implement LLM pipelines using AWS Bedrock and LangChain
 - Architect cloud infrastructure with Docker, PostgreSQL, S3, and Redis
 - Optimize system performance and cost efficiency for production deployment
 
-**Technologies:** Python, AWS Bedrock, LangChain, LangGraph, Docker, PostgreSQL, S3, Redis
+**Technologies:** AWS Bedrock, LangChain, Docker, PostgreSQL, S3, Redis
 
 ### Deep Learning Research Engineer - Alfréd Rényi Institute of Mathematics (2020-2024)
 **Achievements:**
@@ -58,10 +70,10 @@ I wake up at 5am and never miss leg days. I cook for my family and make jokes th
 
 **Responsibilities:**
 - Literature review and writing conference papers
-- Research design & development, executing ideas in code
-- Advise on AI for industrial partners
+- Build scalable training pipelines for model training and evaluation
+- Research representation learning, generative models, and transformers
 
-**Technologies:** Python, PyTorch, Pandas, Docker, Git, Self-supervised image classification, RAG, Cloud, GAN, VAE, Transformers, Huggingface
+**Technologies:** PyTorch, Pandas, GAN, VAE, Transformers, Huggingface
 
 ### Teaching Assistant - University of Amsterdam (2024)
 **Achievements:**
@@ -78,26 +90,25 @@ I wake up at 5am and never miss leg days. I cook for my family and make jokes th
 
 ### Machine Learning Consultant - Asura Technologies Ltd. (2020-2024)
 **Achievements:**
-- Boosted object detection accuracy by a large margin
+- Boosted object detection accuracy from 75% to 93%
 
 **Responsibilities:**
 - Guide a group of ML developers on computer vision projects
 - Advise on technology & implementations to streamline workflows
 
-**Technologies:** Python, TensorFlow, Keras, Scikit-Learn, OpenCV, Git
+**Technologies:** TensorFlow, Scikit-Learn, OpenCV, Git
 
 ### Machine Learning Engineer - Asura Technologies Ltd. (2018-2020)
 **Achievements:**
-- Drove startup growth from 12 to 100+ members with innovative, scalable AI solutions
+- Drove startup growth from 12 to 100+ members
 - Engineered an in-house license plate recognition solution from scratch that outperformed competitors
 
 **Responsibilities:**
-- Design, train and serve real-time object detection models (firearm, car, license plate detection)
+- Design, train and serve real-time object detection models
 - Create and maintain an ALPR and OCR engine, as well as an automated parking system
-- Prune and distill neural networks for inference
 - Deliver state-of-the-art PoC models for new customers
 
-**Technologies:** Python, TensorFlow, Keras, Scikit-Learn, OpenCV, Django, Flask, Cloud, C#, Docker, Git
+**Technologies:** TensorFlow, Scikit-Learn, OpenCV, Django, Flask, C#, Docker, Git
 
 ### Risk Analyst (AI Team) - Morgan Stanley (2017-2018)
 **Achievements:**
@@ -113,9 +124,19 @@ I wake up at 5am and never miss leg days. I cook for my family and make jokes th
 
 ## Key Projects
 
+### WRPGMaps (Home Project)
+Built a generative workflow to create virtual tabletop D&D maps anchored to AI-generated locations, then repaired visual artifacts and expanded them into playable scenes.
+
+**Technologies:** Google Cloud, Claude Code, Codex, Cursor
+
+### Linear D&D (Home Project)
+Generated a linear D&D storyline using a game tree, local LLMs, and expert agents while keeping rules, statistics, and pacing aligned with actual gameplay.
+
+**Technologies:** OpenRouter, Ollama, Claude Code
+
 ### Prisma (Amsterdam, Netherlands)
 **Role:** Full-Stack Engineer
-Multi-LLM framework helping influencers schedule and automate Instagram posts with full-stack development from backend to cloud deployment.
+Multi-LLM framework for influencers to schedule and automate Instagram posts, spanning backend implementation through AWS deployment.
 
 **Responsibilities:**
 - Design and implement backend architecture with multi-LLM framework
@@ -124,33 +145,33 @@ Multi-LLM framework helping influencers schedule and automate Instagram posts wi
 - Deploy and maintain production environment on AWS cloud
 - Integrate AWS services including Bedrock, S3, and Strands
 
-**Technologies:** Docker, AWS, Bedrock, S3, PostgreSQL, Strands
+**Technologies:** AWS Bedrock, LangChain, Strands
 
 ### TruthWorks (Amsterdam, Netherlands)
 **Role:** AI Engineer
-AI-powered investigation platform for US police departments featuring OCR, image captioning, and RAG system for processing thousands of pages to find contradictions.
+AI-powered investigation platform for US police departments featuring OCR, image captioning, and RAG workflows over thousands of case-file pages.
 
 **Responsibilities:**
 - Develop and maintain AI backend infrastructure
 - Implement OCR pipeline for document processing
 - Build image captioning system for visual evidence analysis
-- Design and deploy RAG (Retrieval Augmented Generation) system
+- Design and deploy RAG workflows for large investigation bundles
 - Construct knowledge graphs from case documents
 - Process documents with thousands of pages to extract insights
 - Build systems to identify summaries and contradictions in case files
 
-**Technologies:** Docker, AWS, Bedrock, S3, PostgreSQL, LangChain, Redis
+**Technologies:** AWS Bedrock
 
-### Linux Bash Agent (Home Project)
-Developing a natural language interface for terminal operations using LLMs that can execute complex tasks through prompting, optimized for deployment on resource-constrained devices.
+### OSChat (Home Project)
+A terminal app that distinguishes English prompts from bash prompts, working like Claude Code.
 
-**Technologies:** Python, AWS Bedrock, LangChain, Bash, Linux
+**Technologies:** PyTorch, Docker, JavaScript, Flask
 
 ### RAG System - Alfred Rényi Institute of Mathematics
 **Role:** ML Engineer
-Participated in a Retrieval Augmented Generation project involving vector databases, knowledge graphs, and text generation with LLMs.
+Built a Retrieval Augmented Generation project involving vector databases, knowledge graphs, and question answering across many documents.
 
-**Technologies:** Python, Huggingface, PyTorch
+**Technologies:** Huggingface, PyTorch
 
 ### MSc Thesis - University of Amsterdam
 **Role:** Student

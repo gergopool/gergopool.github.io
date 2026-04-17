@@ -40,9 +40,17 @@ function initExperienceModals() {
             const experience = experienceDetails[experienceId];
 
             if (experience) {
+                const title = experience.logo
+                    ? `
+                    <div class="modal-title-row">
+                        <img src="${experience.logo}" alt="${experience.company} logo" class="modal-company-logo">
+                        <h2>${experience.title}</h2>
+                    </div>`
+                    : `<h2>${experience.title}</h2>`;
+
                 // Create modal content
                 let content = `
-                    <h2>${experience.title}</h2>
+                    ${title}
                     <h3>${experience.company}</h3>
                     <p class="modal-period">${experience.period}</p>
 
@@ -122,13 +130,17 @@ function initContactModal() {
     const contactButton = document.getElementById('openContactModal');
     const modal = document.getElementById('detailModal');
     const modalContent = document.getElementById('modalContent');
+    const phonePayload = {
+        key: 23,
+        chars: [60, 36, 38, 55, 33, 55, 37, 39, 32, 46, 35, 34, 38, 34]
+    };
 
     if (contactButton) {
         contactButton.addEventListener('click', () => {
             const content = `
                 <h2 class="contact-modal-title">Get in Touch</h2>
                 <div class="contact-list">
-                    <a href="https://www.linkedin.com/in/gergopool/" target="_blank" class="contact-item">
+                    <a href="https://www.linkedin.com/in/gergopool/" target="_blank" rel="noopener noreferrer" class="contact-item">
                         <div class="contact-item-icon">
                             <i class="fab fa-linkedin"></i>
                         </div>
@@ -138,7 +150,7 @@ function initContactModal() {
                         </div>
                     </a>
 
-                    <a href="https://github.com/gergopool/" target="_blank" class="contact-item">
+                    <a href="https://github.com/gergopool/" target="_blank" rel="noopener noreferrer" class="contact-item">
                         <div class="contact-item-icon">
                             <i class="fab fa-github"></i>
                         </div>
@@ -173,11 +185,13 @@ function initContactModal() {
             modalContent.innerHTML = content;
             modal.style.display = 'block';
 
-            // Add event listener for phone reveal
             const phoneReveal = document.getElementById('phone-reveal');
             if (phoneReveal) {
                 phoneReveal.addEventListener('click', function() {
-                    this.querySelector('.contact-item-value').textContent = '+31 6 20794515';
+                    const decoded = phonePayload.chars
+                        .map(value => String.fromCharCode(value ^ phonePayload.key))
+                        .join('');
+                    this.querySelector('.contact-item-value').textContent = decoded;
                     this.classList.remove('clickable');
                 }, { once: true });
             }

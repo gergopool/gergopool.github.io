@@ -1,6 +1,6 @@
 # Personal Website - Gergely Papp
 
-A responsive personal website showcasing Gergely Papp's professional experience, skills, and achievements as a Machine Learning Engineer.
+A responsive personal website showcasing Gergely Papp's professional experience, projects, and achievements as a Data Scientist & Consultant.
 
 ## Project Structure
 
@@ -28,7 +28,7 @@ webcv/
 - Project showcase with detailed descriptions
 - Publications and achievements sections
 - Contact form with validation
-- Modern, clean UI with a color scheme reflecting ML engineering
+- Modern, clean UI with a color scheme reflecting applied AI and data work
 
 ## Technologies Used
 
@@ -56,8 +56,8 @@ npx serve
 ## Customization
 
 - Colors: Edit the CSS variables in `css/style.css` to change the color scheme
-- Content: Update the HTML content in `index.html` to reflect your information
-- Interactive elements: Modify the data in `js/main.js` to update the modal content
+- Content: Update the HTML content in `sections/` to reflect your information
+- Interactive elements: Modify the data in `js/experience-data.js` and `js/project-data.js` to update the modal content
 
 ## Browser Compatibility
 

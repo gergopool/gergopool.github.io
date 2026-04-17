@@ -40,6 +40,29 @@
 }
 
 /* Modal Content Styling */
+.modal-title-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 8px;
+}
+
+.modal-title-row h2 {
+    margin: 0;
+}
+
+.modal-company-logo {
+    width: 28px;
+    height: 28px;
+    flex: 0 0 28px;
+    border-radius: 50%;
+    object-fit: cover;
+    background: #fff;
+    padding: 1px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.18);
+}
+
 .modal-section {
     margin-bottom: 25px;
 }

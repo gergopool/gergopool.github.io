@@ -1,7 +1,33 @@
     const projectDetails = {
+        'wrpgmaps': {
+            title: 'WRPGMaps',
+            description: 'Built a generative workflow to create virtual tabletop D&D maps anchored to AI-generated locations, then repaired visual artifacts and expanded them into playable scenes.',
+            responsibilities: [
+                'Generate map candidates from location and theme prompts',
+                'Correct visual artifacts and improve consistency across generated environments',
+                'Attach short story hooks, NPC concepts, and visual character prompts to each map pack'
+            ],
+            role: 'Builder',
+            where: 'Home Project',
+            technologies: 'Google Cloud, Claude Code, Codex, Cursor',
+            details: 'This workflow combined generative image and text systems into a practical worldbuilding tool for tabletop sessions. The output was more than a map generator: it produced reusable scenes with supporting story hooks, NPC descriptions, and visual references that made each result immediately usable in play.'
+        },
+        'linear-dnd': {
+            title: 'Linear D&D',
+            description: 'Generated a linear D&D storyline using a game tree, local LLMs, and expert agents, keeping rules, statistics, and pacing aligned with actual gameplay.',
+            responsibilities: [
+                'Model campaign progression with a game-tree structure',
+                'Coordinate story-writing and D&D-rule expertise across multiple agents',
+                'Validate that encounters, statistics, and narrative pacing remain playable'
+            ],
+            role: 'Builder',
+            where: 'Home Project',
+            technologies: 'OpenRouter, Ollama, Claude Code',
+            details: 'The project explored how far agentic story generation could go when constrained by game logic instead of pure creative writing. The result was a structured campaign generator that balanced narrative quality with playability, using local models and external APIs to keep rules and story synchronized.'
+        },
         'prisma': {
             title: 'Prisma',
-            description: 'Multi-LLM framework helping influencers schedule and automate Instagram posts with full-stack development from backend to cloud deployment.',
+            description: 'Multi-LLM framework for influencers to schedule and automate Instagram posts, spanning backend implementation through AWS deployment.',
             responsibilities: [
                 'Design and implement backend architecture with multi-LLM framework',
                 'Design and manage PostgreSQL database schema',
@@ -12,17 +38,17 @@
             ],
             role: 'Full-Stack Engineer',
             where: 'Amsterdam, Netherlands',
-            technologies: 'Docker, AWS, Bedrock, S3, PostgreSQL, Strands',
-            details: 'A comprehensive multi-LLM framework designed to help influencers automate their social media presence on Instagram. As a full-stack engineer, I handle all aspects from backend development and database design to Docker containerization and AWS cloud deployment. The system leverages cutting-edge technologies including AWS Bedrock for LLM capabilities and Strands for advanced workflow management.'
+            technologies: 'AWS Bedrock, LangChain, Strands',
+            details: 'Prisma is a production-oriented multi-LLM system for influencer workflows on Instagram. The work covers backend architecture, orchestration, and cloud deployment, with Bedrock and Strands supporting the automation layer while keeping the overall system practical to ship and maintain.'
         },
         'truthworks': {
             title: 'TruthWorks',
-            description: 'AI-powered investigation platform for US police departments featuring OCR, image captioning, and RAG system for processing thousands of pages to find contradictions.',
+            description: 'AI-powered investigation platform for US police departments featuring OCR, image captioning, and RAG workflows over thousands of case-file pages.',
             responsibilities: [
                 'Develop and maintain AI backend infrastructure',
                 'Implement OCR pipeline for document processing',
                 'Build image captioning system for visual evidence analysis',
-                'Design and deploy RAG (Retrieval Augmented Generation) system',
+                'Design and deploy RAG workflows for large investigation bundles',
                 'Construct knowledge graphs from case documents',
                 'Process documents with thousands of pages to extract insights',
                 'Build systems to identify summaries and contradictions in case files',
@@ -30,33 +56,33 @@
             ],
             role: 'AI Engineer',
             where: 'Amsterdam, Netherlands',
-            technologies: 'Docker, AWS, Bedrock, S3, PostgreSQL, LangChain, Redis',
-            details: 'An advanced AI system that assists US police departments in criminal investigations by processing massive volumes of documents and evidence. The platform uses sophisticated OCR and image captioning to extract information, then builds comprehensive knowledge graphs that help investigators find key summaries and contradictions across thousands of pages of case files. Built with LangChain and AWS services for robust, scalable performance.'
+            technologies: 'AWS Bedrock',
+            details: 'TruthWorks is an investigation platform for police departments that combines OCR, image captioning, retrieval, and contradiction analysis on very large case bundles. The website keeps more implementation context than the CV, but the emphasis is now on the product outcome rather than listing every supporting service in the stack.'
         },
         'bash-agent': {
-            title: 'Linux Bash Agent',
-            description: 'Developing a natural language interface for terminal operations using LLMs that can execute complex tasks through prompting, optimized for deployment on resource-constrained devices.',
+            title: 'OSChat',
+            description: 'A terminal app that distinguishes English prompts from bash prompts, working like Claude Code.',
             responsibilities: [
-                'Develop an LLM-powered natural language interface for terminal operations using AWS Bedrock',
-                'Implement LangChain pipelines for complex command-line task execution',
-                'Optimize the system for deployment on resource-constrained devices'
+                'Separate natural-language prompts from literal shell commands inside one terminal interface',
+                'Route intent through an AI layer that preserves command-line usability',
+                'Package the app for practical local use with lightweight supporting infrastructure'
             ],
             role: '',
             where: 'Home Project',
-            technologies: 'Python, AWS Bedrock, LangChain, Bash, Linux',
-            details: 'This agent allows users to interact with the Linux terminal using natural language through LLMs, making complex command-line operations accessible to non-technical users. Built with AWS Bedrock and LangChain, the system is optimized for efficient deployment on small GPU devices and CPUs, making it practical for everyday use.'
+            technologies: 'PyTorch, Docker, JavaScript, Flask',
+            details: 'OSChat explores a tighter terminal UX: plain English when you want help, literal bash when you know the command. The project is framed less as a generic agent and more as a practical terminal application with an interaction model close to Claude Code.'
         },
         'rag': {
             title: 'RAG',
-            description: 'Participated in a Retrieval Augmented Generation project involving vector databases, knowledge graphs, and text generation with LLMs.',
+            description: 'Built a retrieval-augmented generation project involving vector databases, knowledge graphs, and question answering across many documents.',
             responsibilities: [
                 'Collect and process data for vector databases and knowledge graphs',
-                'Develop a retrieval-augmented generation system that can retrieve relevant information from a knowledge base and generate accurate, contextually appropriate responses'
+                'Build retrieval pipelines that can answer questions across large document collections'
             ],
             role: 'ML Engineer',
             where: 'Alfred Rényi Institute of Mathematics',
-            technologies: 'Python, Huggingface, PyTorch',
-            details: 'This project combined vector databases and knowledge graphs with large language models to create a powerful retrieval-augmented generation system. The system can retrieve relevant information from a knowledge base and generate accurate, contextually appropriate responses.'
+            technologies: 'Huggingface, PyTorch',
+            details: 'This project combined vector databases, knowledge graphs, and LLMs into a retrieval system aimed at answering questions over many documents. The newer phrasing is more direct and outcome-focused than the older CV copy.'
         },
         'msc-thesis': {
             title: 'MSc Thesis',
@@ -77,11 +103,11 @@
         },
         'gaming-bot': {
             title: 'Gaming Bot',
-            description: 'Developed a rule-based AI in NodeJS for automating gameplay for a browser game with attack timing, reaction to reports, and HTML dashboard logging.',
+            description: 'Developed a rule-based AI in NodeJS for automating gameplay for a browser game, including attack timing, reaction workflows, and a lightweight dashboard.',
             role: '',
             where: 'Home Project',
-            technologies: 'NodeJS, HTML, JavaScript',
-            details: 'This bot automates gameplay in a browser-based game, handling complex timing for attacks, responding to in-game events, and providing a comprehensive HTML dashboard for monitoring and logging. The system uses rule-based AI to make strategic decisions based on game state.'
+            technologies: 'NodeJS, JavaScript',
+            details: 'The bot automated repetitive gameplay tasks in a browser game while staying responsive to reports and timing constraints. The dashboard component remained intentionally lightweight; the point of the project was the automation logic and the time savings it created.'
         },
         'energy-consumption': {
             title: 'Energy Consumption Prediction',

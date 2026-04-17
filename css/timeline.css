@@ -63,6 +63,7 @@
 .timeline-content {
     background-color: var(--card-bg);
     padding: 20px;
+    padding-right: 56px;
     border-radius: 10px;
     box-shadow:
         0 1px 2px rgba(0, 0, 0, 0.3),
@@ -101,11 +102,38 @@
 
 .timeline-pin {
     position: absolute;
-    top: 10px;
-    right: 10px;
+    top: 12px;
+    right: 12px;
     width: 32px;
     height: 32px;
     object-fit: contain;
+}
+
+.timeline-current {
+    padding-right: 64px;
+}
+
+.timeline-header-text {
+    min-width: 0;
+}
+
+.timeline-company-logo {
+    position: static;
+    width: 27px;
+    height: 27px;
+    flex: 0 0 27px;
+    border-radius: 50%;
+    object-fit: cover;
+    background: #fff;
+    padding: 1px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.18);
+}
+
+.timeline-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
 }
 
 .timeline-content h3 {
@@ -121,7 +149,7 @@
 
 .timeline-date {
     font-style: italic;
-    margin-bottom: 5px;
+    margin-bottom: 0;
     color: #999;
 }
 
